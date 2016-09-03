@@ -1,0 +1,31 @@
+/*
+format Stylesheet
+v1.0.0
+Last Updated: 2016-09-03
+Author: White Wolf
+Twitter: @White_Wolf_NeT
+*/
+
+@font-face {
+	font-family: 'ImagineYokohamaFont';
+	src: url(../font/imagine_YOKOHAMA.otf);
+}
+
+* {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: ImagineYokohamaFont;
+}
+
+/*
+タブレット端末サイズ
+*/
+@media screen and (max-width:1050px){
+}
+
+/*
+スマホ端末サイズ
+*/
+@media screen and (max-width:650px){
+}
