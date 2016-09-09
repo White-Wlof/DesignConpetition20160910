@@ -8,7 +8,7 @@ Twitter: @White_Wolf_NeT
 
 @font-face {
 	font-family: 'ImagineYokohamaFont';
-	src: url(../font/imagine_YOKOHAMA.otf);
+	src: url('../font/imagine_YOKOHAMA.otf');
 }
 
 * {
@@ -16,6 +16,16 @@ Twitter: @White_Wolf_NeT
 	margin: 0;
 	padding: 0;
 	font-family: ImagineYokohamaFont;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	transition: .5s;
 }
 
 /*http://netgroup.sakura.ne.jp
