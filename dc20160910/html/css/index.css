@@ -5,3 +5,13 @@ Last Updated: 2016-09-03
 Author: White Wolf
 Twitter: @White_Wolf_NeT
 */
+
+@media screen and (max-width:650px)
+{
+	footer
+	{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+}
