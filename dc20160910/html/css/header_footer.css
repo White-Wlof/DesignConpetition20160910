@@ -8,8 +8,7 @@ Twitter: @White_Wolf_NeT
 
 header
 {
-	border-top: solid 5px rgb(0, 200, 200);
-	background-color: rgba(0,0,0,0.8);
+	border-top: solid 5px rgb(233, 122, 80);
 	background: -moz-linear-gradient(
 		top,
 		rgba(0,0,0,1) 0%,
@@ -21,6 +20,7 @@ header
 	position: fixed;
 	left: 0;
 	top: 0;
+	z-index: 5;
 	width: 98%;
 	padding: 1% 1% 0 1%;
 }
@@ -121,7 +121,7 @@ header
 	max-width: 50px;
 	min-height: 45px;
 	min-width: 45px;
-	border: solid 3px rgb(0, 200, 200);
+	border: solid 2px rgb(233, 122, 80);
 	border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -135,7 +135,7 @@ header
 	border-top: none;
 	font-size: 20px;
 	height: 30px;
-	border: solid 3px rgb(0, 200, 200);
+	border: solid 2px rgb(233, 122, 80);
 	border-left: none;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
@@ -164,6 +164,7 @@ footer
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	z-index: 4;
 }
 
 .copywrigth
