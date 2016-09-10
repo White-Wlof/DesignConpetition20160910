@@ -6,6 +6,26 @@ Author: White Wolf
 Twitter: @White_Wolf_NeT
 */
 
+header{
+	width: 100%;
+	margin: 0;
+	padding-top: 0;
+}
+
+header .logo_group{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header .logo_group img{
+	display: block;
+	width: 100px;
+	height: 25px;
+	margin: 0 auto;
+	padding: 1% 0;
+}
+
 @media screen and (max-width:650px)
 {
 	footer
