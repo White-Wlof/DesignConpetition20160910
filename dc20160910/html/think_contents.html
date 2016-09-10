@@ -16,33 +16,47 @@
 	<link rel="stylesheet" href="css/header_footer.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/think_contents.css">
+	<link rel="stylesheet" type="text/css" href="css/pure-drawer.css" />
 	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
 	<script type="text/javascript" src="js/jquery.inview.js"></script>
 
 </head>
 <body>
 	<header>
-		<div class="logo_group">
-			<h2>サブタイトル</h2>
-			<h1>タイトル</h1>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo_white.png" alt=""></a>
 		</div>
 		<nav class="nav_group">
 			<ul>
-				<li><a href="#" title="HOME">HOME<p class="subTitleMenu">ホーム</p></a></li>
-				<li><a href="#" title="HOME">HOME<p class="subTitleMenu">ホーム</p></a></li>
-				<li><a href="#" title="HOME">HOME<p class="subTitleMenu">ホーム</p></a></li>
-				<li><a href="#" title="HOME">HOME<p class="subTitleMenu">ホーム</p></a></li>
-				<li><a href="#" title="HOME" id="contact_menu_tab">HOME<p class="subTitleMenu">ホーム</p></a></li>
-				<li id="contact_menu">
-					<a href="#" title="CONTACT">
-						<ul>
-							<li><img src="img/icon/contact_icon.gif" alt="CONTACT_ICON"></li>
-							<li>CONTACT</li>
-						</ul>
-					</a>
-				</li>
+				<li><a href="day_contents.html" title="HOME">DAYS<p class="subTitleMenu">日々</p></a></li>
+				<li><a href="interview-content.html" title="HOME">INTERVIEW<p class="subTitleMenu">インタービュー</p></a></li>
+				<li><a href="report-content.html" title="HOME">REPOT<p class="subTitleMenu">レポート</p></a></li>
+				<li><a href="think_contents.html" title="HOME">THINK<p class="subTitleMenu">考える</p></a></li>
+				<li><a href="#" title="HOME">PUBLIC<p class="subTitleMenu">広報</p></a></li>
 			</ul>
 		</nav>
+		<div class="pure-container" data-effect="pure-effect-bounce">
+			<input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
+			<label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right">
+				<span class="pure-toggle-icon"></span>
+			</label>
+			<div class="pure-drawer" data-position="right">
+				<nav class="nav_group_smartphone">
+					<ul>
+						<li><a href="day_contents.html" title="HOME">DAYS</a></li>
+						<li><a href="interview-content.html" title="HOME">INTERVIEW</a></li>
+						<li><a href="report-content.html" title="HOME">REPOT</a></li>
+						<li><a href="think_contents.html" title="HOME">THINK</a></li>
+						<li><a href="#" title="HOME">PUBLIC</a></li>
+					</ul>
+				</nav>
+			</div> 
+			<div class="pure-pusher-container"> 
+				<div class="pure-pusher">
+				</div>
+			</div> 
+			<label class="pure-overlay" for="pure-toggle-right" data-overlay="right"></label>
+		</div>
 	</header>
 	<div class="main_body">
 		<div class="main_contents">
@@ -144,6 +158,12 @@
 		</div>
 	</div>
 	<footer>
+		<div class="page-link">
+			<ul>
+				<li><a href="http://www.crazy.co.jp/" target="_blank">公式ホームページ</a></li>
+				<li><a href="#" target="_blank">採用ページ</a></li>
+			</ul>		
+		</div>
 		<p class="copywrigth">netgroup©2016</p>
 	</footer>
 </body>
