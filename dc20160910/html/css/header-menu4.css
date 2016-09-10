@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+}
+label {
+    background: #aaa;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+input[type="checkbox"].on-off{
+    display: none;
+}
+
+.menu ul {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 5px;
+    border: solid 1px #222;
+    margin-bottom: -1px;
+}
+
+input[type="checkbox"].on-off + ul{
+    height: 0;
+    overflow: hidden;
+}
+
+input[type="checkbox"].on-off:checked + ul{
+    height: 200px;
+}

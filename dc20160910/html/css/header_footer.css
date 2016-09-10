@@ -8,7 +8,7 @@ Twitter: @White_Wolf_NeT
 
 header
 {
-	border-top: solid 5px rgb(233, 122, 80);
+	/*border-top: solid 5px rgb(233, 122, 80);*/
 	background: -moz-linear-gradient(
 		top,
 		rgba(0,0,0,1) 0%,
@@ -33,7 +33,7 @@ header
 }
 
 .logo_group h1{
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
 	width: 90%;
 	margin: 0;
@@ -74,7 +74,7 @@ header
 	display: block;
 	width: 90%;
 	padding: 0 5% 5% 5%;
-	font-size: 20px;
+	font-size: 14px;
 	color: white;
 }
 
@@ -121,10 +121,10 @@ header
 	max-width: 50px;
 	min-height: 45px;
 	min-width: 45px;
-	border: solid 2px rgb(233, 122, 80);
-	border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+	/*border: solid 2px rgb(233, 122, 80);*/
+	/*border-radius: 50%;*/
+    /*-webkit-border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
 }
 
 #contact_menu li:last-child
@@ -133,12 +133,12 @@ header
 	padding: 8px 0 12px 30px;
 	margin-left: -25px;
 	border-top: none;
-	font-size: 20px;
+	font-size: px;
 	height: 30px;
-	border: solid 2px rgb(233, 122, 80);
+	/*border: solid 2px rgb(233, 122, 80);
 	border-left: none;
 	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 25px;*/
 }
 
 .nav_group ul:after
@@ -177,6 +177,9 @@ footer
 	color: white;
 	background: black;
 }
+li{
+	list-style: none;
+}
 
 /*http://netgroup.sakura.ne.jp
 タブレット端末サイズ
@@ -196,8 +199,10 @@ footer
 	}
 }
 
-@media screen and (max-width:650px)
-{
+@media screen and (max-width:650px){
+	.nav_group{
+		display: none;
+	}
 	footer
 	{
 		position: relative;
